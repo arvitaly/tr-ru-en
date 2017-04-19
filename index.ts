@@ -66,5 +66,5 @@ export const map: { [index: string]: string } = {
 };
 
 export default (input: string) => {
-    return input.split("").map((i) => map[i]).join("");
+    return input.split("").map((i) => map[i] ? map[i] : i).join("");
 };

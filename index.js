@@ -67,5 +67,5 @@ exports.map = {
     "я": "ya",
 };
 exports.default = (input) => {
-    return input.split("").map((i) => exports.map[i]).join("");
+    return input.split("").map((i) => exports.map[i] ? exports.map[i] : i).join("");
 };
