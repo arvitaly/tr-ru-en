@@ -1,0 +1,29 @@
+{
+  "name": "tr-ru-en",
+  "version": "0.0.1",
+  "description": "Transliteration from Russian to English",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && tslint --project=tsconfig.json && jest --verbose --coverage",
+    "watch:test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvitaly/tr-ru-en.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arvitaly/tr-ru-en/issues"
+  },
+  "homepage": "https://github.com/arvitaly/tr-ru-en#readme",
+  "jest": {},
+  "devDependencies": {
+    "@types/jest": "^19.2.2",
+    "coveralls": "^2.13.0",
+    "jest": "^19.0.2",
+    "tslint": "^5.1.0",
+    "typescript": "^2.2.2"
+  }
+}
