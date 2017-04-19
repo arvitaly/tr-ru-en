@@ -13,7 +13,7 @@ Transliteration from Russian to English
 
     import translit from "tr-ru-en";
     
-    expect(translit("Козырёв")).toBe("Kozyrev");
+    const result = translit("Козырёв"); // Kozyrev
 
 # API
 
