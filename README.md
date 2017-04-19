@@ -11,11 +11,16 @@ Transliteration from Russian to English
 
 # Usage
 
-
+    import translit from "tr-ru-en";
+    
+    expect(translit("Козырёв")).toBe("Kozyrev");
 
 # API
 
-
+    // Map of symbols
+    export const map: { [index: string]: string };
+    //translit-function
+    export default (input: string) => string;
 
 # Test
 
