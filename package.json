@@ -1,6 +1,6 @@
 {
   "name": "tr-ru-en",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Transliteration from Russian to English",
   "main": "index.js",
   "scripts": {
